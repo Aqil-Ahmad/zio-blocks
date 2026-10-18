@@ -110,8 +110,8 @@ lazy val schema = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   )
   .jsSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     ) ++ (CrossVersion.partialVersion(scalaVersion.value) match {
       case Some((2, _)) =>
         Seq()
@@ -123,8 +123,8 @@ lazy val schema = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   )
   .nativeSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     )
   )
 
@@ -244,14 +244,14 @@ lazy val `schema-messagepack` = crossProject(JSPlatform, JVMPlatform, NativePlat
   )
   .jsSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     )
   )
   .nativeSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     )
   )
 
@@ -285,8 +285,8 @@ lazy val `schema-toon` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   )
   .jsSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     ) ++ (CrossVersion.partialVersion(scalaVersion.value) match {
       case Some((2, _)) =>
         Seq()
@@ -298,8 +298,8 @@ lazy val `schema-toon` = crossProject(JSPlatform, JVMPlatform, NativePlatform)
   )
   .nativeSettings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales"         % "1.5.4" % Test,
-      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.5.4" % Test
+      "io.github.cquiroz" %%% "scala-java-locales"         % "1.6.0" % Test,
+      "io.github.cquiroz" %%% "locales-full-currencies-db" % "1.6.0" % Test
     )
   )
 
